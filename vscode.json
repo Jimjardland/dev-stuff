@@ -1,0 +1,34 @@
+{
+  "workbench.colorTheme": "Monokai",
+  "workbench.iconTheme": "vscode-icons",
+  "window.zoomLevel": 0,
+  "editor.renderWhitespace": "none",
+  "editor.tabSize": 2,
+  "editor.formatOnSave": false,
+  "editor.rulers": [],
+  "[javascript]": {},
+  "git.confirmSync": false,
+  "vsicons.presets.hideFolders": true,
+  "vsicons.presets.foldersAllDefaultIcon": true,
+  "editor.minimap.enabled": false,
+  "editor.renderIndentGuides": false,
+  "editor.trimAutoWhitespace": true,
+  "files.trimTrailingWhitespace": true,
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#171a1783",
+    "sideBar.background": "#171a17",
+    "editor.background": "#171a1783",
+    "tab.border": "#171a1783",
+    "tab.activeBackground": "#66184573",
+    "tab.inactiveBackground": "#171a1783",
+    "input.background": "#2c2b2b"
+  },
+  "explorer.confirmDelete": false,
+  "gitlens.keymap": "alternate",
+  "editor.parameterHints": false,
+  "explorer.confirmDragAndDrop": false,
+  "gitlens.advanced.messages": {
+    "suppressShowKeyBindingsNotice": true
+  },
+  "gitlens.historyExplorer.enabled": true
+}
