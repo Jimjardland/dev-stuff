@@ -1,38 +1,56 @@
 {
-    "workbench.colorTheme": "Monokai",
-    "workbench.iconTheme": "vscode-icons",
-    "window.zoomLevel": 0,
-    "editor.renderWhitespace": "none",
-    "editor.tabSize": 2,
-    "editor.formatOnSave": false,
-    "editor.rulers": [],
-    "[javascript]": {},
-    "git.confirmSync": false,
-    "vsicons.presets.hideFolders": true,
-    "vsicons.presets.foldersAllDefaultIcon": true,
-    "editor.minimap.enabled": false,
-    "editor.renderIndentGuides": false,
-    "editor.trimAutoWhitespace": true,
-    "files.trimTrailingWhitespace": true,
-    "workbench.colorCustomizations": {
-      "activityBar.background": "#171a1783",
-      "sideBar.background": "#171a17",
-      "editor.background": "#171a1783",
-      "tab.border": "#171a1783",
-      "tab.activeBackground": "#66184573",
-      "tab.inactiveBackground": "#171a1783",
-      "input.background": "#2c2b2b"
-    },
-    "explorer.confirmDelete": false,
-    "gitlens.keymap": "alternate",
-    "editor.parameterHints": false,
-    "explorer.confirmDragAndDrop": false,
-    "gitlens.advanced.messages": {
-      "suppressShowKeyBindingsNotice": true
-    },
-    "files.exclude": {
-      "node_modules/": true,
-      "**/._*": true
-    },
-    "gitlens.historyExplorer.enabled": true
-  }
+  "workbench.colorTheme": "Monokai",
+  "workbench.iconTheme": "vscode-icons",
+  "window.zoomLevel": 2,
+  "files.hotExit": "off",
+  "editor.renderWhitespace": "none",
+  "editor.tabSize": 2,
+  "editor.rulers": [],
+  "[javascript]": {
+    "editor.formatOnSave": true
+  },
+  "[typescript]": {
+    "editor.formatOnSave": true
+  },
+  "eslint.autoFixOnSave": true,
+  "git.confirmSync": false,
+  "vsicons.presets.hideFolders": true,
+  "vsicons.presets.foldersAllDefaultIcon": true,
+  "editor.minimap.enabled": false,
+  "editor.renderIndentGuides": false,
+  "editor.trimAutoWhitespace": true,
+  "prettier.eslintIntegration": false,
+  "prettier.singleQuote": true,
+  "prettier.semi": false,
+  "prettier.trailingComma": "none",
+  "prettier.tslintIntegration": false,
+  "files.trimTrailingWhitespace": true,
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#171a1783",
+    "sideBar.background": "#171a17",
+    "editor.background": "#171a1783",
+    "tab.border": "#171a1783",
+    "tab.activeBackground": "#66184573",
+    "tab.inactiveBackground": "#171a1783",
+    "input.background": "#2c2b2b"
+  },
+  "explorer.confirmDelete": false,
+  "gitlens.keymap": "alternate",
+  "editor.parameterHints": false,
+  "explorer.confirmDragAndDrop": false,
+  "gitlens.advanced.messages": {
+    "suppressShowKeyBindingsNotice": true
+  },
+  "files.exclude": {
+    "node_modules/": true,
+    "**/._*": true
+  },
+  "gitlens.historyExplorer.enabled": true,
+  "vs-kubernetes": {
+    "vs-kubernetes.helm-path": "/Users/jjd/.vs-kubernetes/tools/helm/darwin-amd64/helm",
+    "vs-kubernetes.draft-path": "/Users/jjd/.vs-kubernetes/tools/draft/darwin-amd64/draft"
+  },
+  "liveshare.featureSet": "insiders",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "breadcrumbs.enabled": true
+}
